@@ -1,0 +1,4 @@
+Phaser  - open source javaScript library
+		- create cross-platform 2D games
+				- browser, mobile, desktop, & smart tv games
+		- creating game sprite
