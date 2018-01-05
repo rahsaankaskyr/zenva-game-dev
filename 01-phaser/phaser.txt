@@ -7,6 +7,31 @@ Phaser  - open source javaScript library
 
 		- project setup 
 					- hello-world dir
-							- js dir 	- phaser.js 
+							- js dir 	
+										- phaser.js 
 										- main.js
-							- assets dir - hello.png
+							- assets dir 
+										- hello.png
+
+					- index.html with js scripts
+
+		- creating the game
+					- main.js
+					- add basic skeleton of game
+
+		- states 	- diff parts of game(loading screen, home screen, game screen, game over screen, etc.)
+					- phaser games = sequence of states
+					- are javaScript objects with methods - for setup and run
+						- preload method (load all the game assets, images, sounds, etc.)
+						- create method (execute when game is ready to begin) 
+
+		- hello world - syntax
+
+		- sprites 	- 
+					- positioning 	- origin - top-left of screen
+									- X axis is positive going right
+									- Y axis is positive going down
+									- positing a sprite
+									
+
+
