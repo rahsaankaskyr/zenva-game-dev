@@ -1,6 +1,12 @@
 Phaser  - open source javaScript library
 		- create cross-platform 2D games
-				- browser, mobile, desktop, & smart tv games
+				- browser, mobile, desktop, & smart tv games (HTML, CSS, JS)
 		- creating game sprite
+		- local web server ($ npm install -g http-server // to have a local server run)
+							- $ http-server
 
-		
+		- project setup 
+					- hello-world dir
+							- js dir 	- phaser.js 
+										- main.js
+							- assets dir - hello.png
