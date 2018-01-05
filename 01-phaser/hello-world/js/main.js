@@ -31,7 +31,7 @@ var GameState = {
 		//create a sprite, using the image with key "mybackground"
 		this.add.sprite(0, 0, 'mybackground');
 
-		var player = this.add.sprite(0, 0, 'player');
+		var player = this.add.sprite(10, 20, 'player');
 
 		// set x to 100
 		player.x = 100;
@@ -45,6 +45,16 @@ var GameState = {
 		//set the position to a variable
 		var somewhere = {x: 1000, y: 1000};
 		player.position = somewhere;
+	
+		//set the anchor to the center
+		player.anchor.x = 0.5;
+		player.anchor.y = 0.5;
+
+		//can also use setTo method
+		player.anchor.setTo(0.5, 0.5);
+
+		//when x and y are the same, we can also do:
+		player.anchor.setTo(0.5);
 	}
 
 };
